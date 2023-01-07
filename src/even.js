@@ -4,7 +4,7 @@ console.log('Welcome to the Brain Games!');
 
 const userName = readlineSync.question('May I have your name? ');
 
-const greetAndAskForName = () => {
+const greetingUser = () => {
   console.log(`Hello, ${userName}!`);
 };
 
@@ -31,7 +31,8 @@ const evenGame = () => {
       break;
     }
   }
+
   return `Congratulations, ${userName}`;
 };
 
-export { getRandomNum, evenGame, greetAndAskForName };
+export { getRandomNum, evenGame, greetingUser };
