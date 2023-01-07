@@ -8,10 +8,6 @@ const greetAndAskForName = () => {
   console.log(`Hello, ${userName}!`);
 };
 
-const congratulationsUserName = () => {
-  console.log(`Congratulations, ${userName}!`);
-};
-
 const getRandomNum = (max) => Math.ceil(Math.random() * max);
 
 const evenGame = () => {
@@ -26,7 +22,7 @@ const evenGame = () => {
     const checking1 = (answerUser === 'yes') && (evenNum);
     const checking2 = (answerUser === 'no') && (!evenNum);
     const correctAnswer = (answerUser === 'yes' ? 'no' : 'yes');
-    const errorMessage = `${answerUser} is wrong answer ;(. Correct answer was ${correctAnswer}. Let's try again, Bill!`;
+    const errorMessage = `${answerUser} is wrong answer ;(. Correct answer was ${correctAnswer}. Let's try again, ${userName}`;
 
     if (checking1 === true || checking2 === true) {
       console.log('Correct!');
@@ -35,7 +31,7 @@ const evenGame = () => {
       break;
     }
   }
-  return congratulationsUserName();
+  return `Congratulations, ${userName}`;
 };
 
 export { getRandomNum, evenGame, greetAndAskForName };
