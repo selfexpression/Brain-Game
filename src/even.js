@@ -1,10 +1,15 @@
 import readlineSync from 'readline-sync';
 
-const greetAndAskForName = () => {
-  console.log('Welcome to the Brain Games!');
+console.log('Welcome to the Brain Games!');
 
-  const userName = readlineSync.question('May I have your name? ');
+const userName = readlineSync.question('May I have your name? ');
+
+const greetAndAskForName = () => {
   console.log(`Hello, ${userName}!`);
+};
+
+const congratulationsUserName = () => {
+  console.log(`Congratulations, ${userName}!`);
 };
 
 const getRandomNum = (max) => Math.ceil(Math.random() * max);
@@ -30,8 +35,7 @@ const evenGame = () => {
       break;
     }
   }
-
-  console.log(`Congratulations, ${greetAndAskForName()}`);
+  return congratulationsUserName();
 };
 
 export { getRandomNum, evenGame, greetAndAskForName };
