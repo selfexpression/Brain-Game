@@ -8,13 +8,15 @@ const greetingUser = () => {
   console.log(`Hello, ${userName}!`);
 };
 
-const getRandomNum = (max) => Math.ceil(Math.random() * max);
+const getRandomNum = () => Math.ceil(Math.random() * 100);
 
 const evenGame = () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   for (let i = 0; i < 3; i += 1) {
-    const evenNum = getRandomNum(100) % 2 === 0;
-    const que = `Question: ${getRandomNum(100)}`;
+    const num = getRandomNum();
+    const evenNum = num % 2 === 0;
+
+    const que = `Question: ${num}`;
     console.log(que);
 
     const answerUser = readlineSync.question('Your answer: ');
