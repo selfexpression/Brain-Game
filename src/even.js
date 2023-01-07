@@ -34,7 +34,7 @@ const evenGame = () => {
     }
   }
 
-  return `Congratulations, ${userName}`;
+  console.log(`Congratulations, ${userName}`);
 };
 
 export { getRandomNum, evenGame, greetingUser };
