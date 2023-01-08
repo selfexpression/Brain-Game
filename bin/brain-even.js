@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-import { evenGame, getRandomNum, greetingUser } from '../src/even.js';
+import evenGame from '../src/games/even.js';
 
-greetingUser();
-getRandomNum();
 evenGame();
