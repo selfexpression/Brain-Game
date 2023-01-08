@@ -27,7 +27,6 @@ export default () => {
       console.log(errorMessage);
       break;
     }
+    console.log(`Congratulations, ${userName}`);
   }
-
-  console.log(`Congratulations, ${userName}`);
 };
