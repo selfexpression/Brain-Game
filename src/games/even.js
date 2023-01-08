@@ -14,14 +14,14 @@ export default () => {
     const questionNum = getRandomNum(0, 100);
     const isEven = () => questionNum % 2 === 0;
 
-    const que = `Question: ${questionNum}`;
-    console.log(que);
+    const question = `Question: ${questionNum}`;
+    console.log(question);
 
-    const answerUser = readlineSync.question('Your answer: ');
+    const userAnswer = readlineSync.question('Your answer: ');
     const correctAnswer = (isEven(questionNum) ? 'yes' : 'no');
-    const errorMessage = `${answerUser} is wrong answer ;(. Correct answer was ${correctAnswer}. Let's try again, ${userName}`;
+    const errorMessage = `${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}. Let's try again, ${userName}`;
 
-    if (answerUser === correctAnswer) {
+    if (userAnswer === correctAnswer) {
       console.log('Correct!');
     } else {
       console.log(errorMessage);
