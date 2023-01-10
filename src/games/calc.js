@@ -36,10 +36,10 @@ const getQuestionAndAnswer = () => {
       correctAnswer = operand1 + operand2;
       break;
     case '-':
-      correctAnswer = operand1 + operand2;
+      correctAnswer = operand1 - operand2;
       break;
     case '*':
-      correctAnswer = operand1 + operand2;
+      correctAnswer = operand1 * operand2;
       break;
     default:
   }
