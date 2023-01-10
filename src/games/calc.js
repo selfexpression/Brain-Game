@@ -28,10 +28,11 @@ const getQuestionAndAnswer = () => {
   const question = getRandomOperationSymbol(expressions);
   const operator = getRandomOperationSymbol(operators);
   const middleChar = question.length / 2;
+  const isOperator = question.charAt(middleChar);
 
   let correctAnswer;
 
-  switch (question.charAt(middleChar) === operator) {
+  switch (isOperator === operator) {
     case '+':
       correctAnswer = operand1 + operand2;
       break;
