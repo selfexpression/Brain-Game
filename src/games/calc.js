@@ -1,8 +1,15 @@
 import generalLogic from '../index.js';
-import { getRandomExp } from '../utils.js';
+import { getRandomExp, getResultExp } from '../utils.js';
 
 const description = 'What is the result of the expression?';
 
 const getQuestionAndAnswer = () => {
-    
+  const question = getRandomExp();
+  const correctAnswer = getResultExp(question) ? getResultExp(question) : getResultExp(question);
+
+  return [question, correctAnswer];
+};
+
+export default () => {
+  generalLogic(description, getQuestionAndAnswer);
 };
