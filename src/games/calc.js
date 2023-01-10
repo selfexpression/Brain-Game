@@ -5,7 +5,7 @@ const description = 'What is the result of the expression?';
 
 const getQuestionAndAnswer = () => {
   const question = getRandomExp();
-  const correctAnswer = getResultExp(question) ? getResultExp(question) : getResultExp(question);
+  const correctAnswer = getResultExp(question);
 
   return [question, correctAnswer];
 };

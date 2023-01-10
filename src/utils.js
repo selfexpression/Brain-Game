@@ -20,11 +20,11 @@ export const getResultExp = (string) => {
 
   switch (operator) {
     case '+':
-      return (+operand1 + +operand2);
+      return (Number(operand1) + Number(operand2));
     case '-':
-      return (operand1 - operand2);
+      return (Number(operand1) - Number(operand2));
     case '*':
-      return (operand1 * operand2);
+      return (Number(operand1) * Number(operand2));
     default:
       return null;
   }
