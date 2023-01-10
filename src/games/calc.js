@@ -3,13 +3,13 @@ import { getRandomNum } from '../utils.js';
 
 const description = 'What is the result of the expression?';
 
-export const getRandomOperationSymbol = (symbols) => {
+const getRandomOperationSymbol = (symbols) => {
   const randomIndex = getRandomNum(0, symbols.length);
   const randomSymbol = symbols[randomIndex];
   return randomSymbol;
 };
 
-export const calculateOperations = (symbol, firstValue, secondValue) => {
+const calculateOperations = (symbol, firstValue, secondValue) => {
   switch (symbol) {
     case '+':
       return firstValue + secondValue;
