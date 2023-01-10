@@ -10,8 +10,8 @@ export default (description, getQuestionAndAnswer) => {
   console.log(description);
 
   for (let i = 0; i < countsRound; i += 1) {
-    const [questionNum, correctAnswer] = getQuestionAndAnswer();
-    console.log(`Question: ${questionNum}`);
+    const [question, correctAnswer] = getQuestionAndAnswer();
+    console.log(`Question: ${question}`);
 
     const userAnswer = readlineSync.question('Your answer: ');
 
