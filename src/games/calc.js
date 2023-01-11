@@ -23,11 +23,7 @@ const calculateOperations = (symbol, firstValue, secondValue) => {
 };
 
 const getQuestionAndAnswer = () => {
-  const operationSymbols = [
-    ['+'],
-    ['-'],
-    ['*'],
-  ];
+  const operationSymbols = ['+', '-', '*'];
   const randomSymbol = getRandomOperationSymbol(operationSymbols);
   const firstNum = getRandomNum(0, 20);
   const secondNum = getRandomNum(0, 20);
