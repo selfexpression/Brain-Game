@@ -18,6 +18,7 @@ const hideRandomIndex = (str) => {
   const strToArr = str.split(' ');
   const randomIndex = getRandomNum(0, 9);
   const index = strToArr[randomIndex];
+
   for (let i = 0; i < strToArr.length - 1; i += 1) {
     if (strToArr[i] === index) {
       strToArr[i] = '...';
