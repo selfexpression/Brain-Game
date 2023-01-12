@@ -21,6 +21,7 @@ const getQuestionAndAnswer = () => {
   const randomIndex = getRandomNum(0, 9);
 
   const question = progression.join(' ');
+  progression[randomIndex] = '..';
   const correctAnswer = String(progression[randomIndex]);
 
   return [question, correctAnswer];
