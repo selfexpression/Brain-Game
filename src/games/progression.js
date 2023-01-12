@@ -11,32 +11,17 @@ const getProgression = (startNum, step) => {
     progression.push(startNum + step * i);
   }
 
-  return progression.join(' ');
-};
-
-const hideRandomIndex = (str) => {
-  const strToArr = str.split(' ');
-  const randomIndex = getRandomNum(0, 9);
-  const index = strToArr[randomIndex];
-
-  for (let i = 0; i < strToArr.length - 1; i += 1) {
-    if (strToArr[i] === index) {
-      strToArr[i] = '...';
-    }
-  }
-
-  const hideIndex = strToArr.join(' ');
-  return [hideIndex, index];
+  return progression;
 };
 
 const getQuestionAndAnswer = () => {
   const startNum = getRandomNum(0, 50);
   const step = getRandomNum(2, 8);
   const progression = getProgression(startNum, step);
-  const [hideIndex, index] = hideRandomIndex(progression);
+  const randomIndex = getRandomNum(0, 9);
 
-  const question = hideIndex;
-  const correctAnswer = String(index);
+  const question = progression.join(' ');
+  const correctAnswer = String(progression[randomIndex]);
 
   return [question, correctAnswer];
 };
