@@ -22,6 +22,7 @@ export default (description, getQuestionAndAnswer) => {
       console.log(`Let's try again, ${userName}`);
       return;
     }
-    console.log(`Congratulations, ${userName}`);
   }
+
+  console.log(`Congratulations, ${userName}`);
 };
