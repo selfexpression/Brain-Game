@@ -24,5 +24,5 @@ export default (description, getQuestionAndAnswer) => {
     }
   }
 
-  console.log(`Congratulations, ${userName}`);
+  console.log(`Congratulations, ${userName}!`);
 };
