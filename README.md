@@ -12,7 +12,7 @@
 ### Install
 
 ```bash
-git clone https://github.com/SuperSnowSnail/frontend-project-44.git
+git clone https://github.com/selfexpression/frontend-project-44.git
 cd frontend-project-44
 make install
 npm link # (You may need sudo)
