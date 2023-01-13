@@ -32,7 +32,7 @@ brain-even
 
 ##### Demo:
 
-<a href="https://asciinema.org/a/mcEpwsCz5PzFMWzRu3cYZKH2X" target="_blank"><img src="https://asciinema.org/a/mcEpwsCz5PzFMWzRu3cYZKH2X.svg" /></a>
+<a href="https://asciinema.org/a/551334" target="_blank"><img src="https://asciinema.org/a/551334.svg" /></a>
 
 #### Brain Calculator:
 
@@ -46,7 +46,7 @@ brain-calc
 
 ##### Demo:
 
-<a href="https://asciinema.org/a/ew5WrKXFpoE42THdO7xBv3vq6" target="_blank"><img src="https://asciinema.org/a/ew5WrKXFpoE42THdO7xBv3vq6.svg" /></a>
+<a href="https://asciinema.org/a/551336" target="_blank"><img src="https://asciinema.org/a/551336.svg" /></a>
 
 #### Brain GCD:
 
@@ -60,7 +60,7 @@ brain-gcd
 
 ##### Demo:
 
-<a href="https://asciinema.org/a/KlvJtRaqqhVICL53Dq09Xxv1M" target="_blank"><img src="https://asciinema.org/a/KlvJtRaqqhVICL53Dq09Xxv1M.svg" /></a>
+<a href="https://asciinema.org/a/551338" target="_blank"><img src="https://asciinema.org/a/551338.svg" /></a>
 
 #### Brain Progression:
 
@@ -74,7 +74,7 @@ brain-progression
 
 ##### Demo:
 
-<a href="https://asciinema.org/a/AxQwQjzKTQ3x7nTIRaubPr4LV" target="_blank"><img src="https://asciinema.org/a/AxQwQjzKTQ3x7nTIRaubPr4LV.svg" /></a>
+<a href="https://asciinema.org/a/551340" target="_blank"><img src="https://asciinema.org/a/551340.svg" /></a>
 
 #### Brain Prime:
 
@@ -88,4 +88,4 @@ brain-prime
 
 ##### Demo:
 
-<a href="https://asciinema.org/a/4uPXsSLZMdU3OvWPb7TcZO1Bz" target="_blank"><img src="https://asciinema.org/a/4uPXsSLZMdU3OvWPb7TcZO1Bz.svg" /></a>
+<a href="https://asciinema.org/a/551341" target="_blank"><img src="https://asciinema.org/a/551341.svg" /></a>
