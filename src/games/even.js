@@ -7,7 +7,7 @@ const isEvenNum = (num) => num % 2 === 0;
 
 const getQuestionAndAnswer = () => {
   const question = getRandomNum(0, 100);
-  const correctAnswer = (isEvenNum(question) ? 'yes' : 'no');
+  const correctAnswer = isEvenNum(question) ? 'yes' : 'no';
 
   return [question, correctAnswer];
 };
